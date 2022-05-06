@@ -22,6 +22,8 @@ def question(title, a, b, c, d, answer):
   
   print()
   print(f'''
+          {title}
+        
   [A] {a}                    [B] {b}
   [C] {c}                  [D] {d}
   ''')
@@ -32,7 +34,6 @@ def question(title, a, b, c, d, answer):
     time.sleep(2)
 
 def quizmgr():
-  taken = 1
   os.system('cls' if os.name == 'nt' else 'clear')
   tp("* OH BOY!")
   print()
@@ -66,6 +67,7 @@ def quizmgr():
   os.system('cls' if os.name == 'nt' else 'clear')
   question("What's the king's full name?", "Lord Fluffybuns", "Fuzzy Pushover", "Asgore Dreemurr", "Mr. Friendship", "C")
   os.system('cls' if os.name == 'nt' else 'clear')
+  question("What are robots made of?", "Hopes & Dreams","Metal & Magic", "Snips & Snails", "Sugar & Spice", "B")
   
   
   
